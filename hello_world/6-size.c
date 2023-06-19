@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description Write a C program that prints the size of various types on the computer
+ * Description Write a C program
  *
  * Return: zero on success
 */
