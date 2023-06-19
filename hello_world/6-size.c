@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Description write on the screen
+ * Description Write a C program that prints the size of various types on the computer
  *
- * Return: zero un success
+ * Return: zero on success
 */
 int main(void)
 {
