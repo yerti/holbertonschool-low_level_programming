@@ -21,7 +21,7 @@ int main(void)
 	/*if conditional*/
 	if (lastD > 5)
 	{
-		printf("Las digit of %d is %d and is greater than 5\n", n, lastD);
+		printf("Last digit of %d is %d and is greater than 5\n", n, lastD);
 	}
 	else if (lastD == 0)
 	{
