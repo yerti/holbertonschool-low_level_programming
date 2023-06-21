@@ -10,14 +10,9 @@
 */
 int main(void)
 {
-	int n;
-	char *text = "_putchar";
+	char text[] = "_putchar";
 
-	for (n = 0; n < 8; n++)
-	{
-		_putchar(text[n]);
-	}
-	_putchar('\n');
+	putchar(text);
 
 	return (0);
 }
