@@ -1,14 +1,13 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main -first program
+ * print_alphabet - prints the alphabet in lowercase*
  *
- * Description: writing functions
+ * Description: This program print the alphabet.
  *
- * Return: Always 0 (success)
+ * Return: Always 0.
 */
-int main(void)
+void print_alphabet(void)
 {
 	/* a = alphabet*/
 	char a;
@@ -19,5 +18,4 @@ int main(void)
 	}
 
 	_putchar('\n');
-	return (0);
 }
