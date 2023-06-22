@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *
+ * jack_bauer - Pirnts every minute of the day of jack bauer
  *
 */
 void jack_bauer(void)
