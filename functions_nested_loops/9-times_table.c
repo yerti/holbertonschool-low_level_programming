@@ -1,11 +1,9 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * times_table - print the table of 9
  *
 */
-
 void times_table(void)
 {
 	int i, j, result, count;
@@ -32,6 +30,6 @@ void times_table(void)
 			count++;
 
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
