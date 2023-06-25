@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- *
+ * print_diagonal - print a slash on the line
+ * @n: first parameter
  *
  */
 void print_diagonal(int n)
