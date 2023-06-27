@@ -20,8 +20,8 @@ void rev_string(char *s)
 
 	for (i = 0; i  <= alm; i++)
 	{
-		count = s[y];
-		s[y] = s[alm];
+		count = s[i];
+		s[i] = s[alm];
 		s[alm--] = count;
 
 	}
