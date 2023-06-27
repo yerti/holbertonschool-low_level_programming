@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *
- *
+ * puts_half -  prints half of a string
+ * @str: first parameter
  */
 void puts_half(char *str)
 {
@@ -14,7 +14,7 @@ void puts_half(char *str)
 	{
 		alm++;
 	}
-	
+
 	if (alm % 2 == 0)
 	{
 		p = alm / 2;
