@@ -6,7 +6,7 @@
  * @i: number that is multiplied by the square
  * Return: zero
  */
-int recursion( int n, int i)
+int recursion(int n, int i)
 {
 	int j, cuadrado;
 
@@ -26,7 +26,7 @@ int recursion( int n, int i)
 	}
 	else if (i * i < n)
 	{
-		return (j + recursion(n, i +1));
+		return (j + recursion(n, i + 1));
 	}
 	return (0);
 }
