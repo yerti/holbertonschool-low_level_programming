@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _pow_recursionint - print the numbe x to the power of and
+ * _pow_recursion - print the numbe x to the power of and
  * @x: power base
  * @y: power exponent
  * Return: power result
@@ -20,5 +20,6 @@ int _pow_recursion(int x, int y)
 	{
 		return (x);
 	}
-	return (x * _pow_recursion(x, y -1));
+	return (x * _pow_recursion(x, y - 1));
+
 }
