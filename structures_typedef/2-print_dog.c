@@ -2,7 +2,8 @@
 #include "dog.h"
 
 /**
- *
+ * print_dog -  prints a struct dog
+ * @d: first parameter
  *
  *
  */
@@ -29,5 +30,5 @@ void print_dog(struct dog *d)
 		{
 			printf("Owner: %s\n", d->owner);
 		}
-	} 
+	}
 }
