@@ -16,7 +16,7 @@ void print_dog(struct dog *d)
 	}
 	else if (NULL)
 	{
-		printf("Name: (nill)\n");
-		printf("Owner: (nill)\n");
+		printf("Name: (nil)\n");
+		printf("Owner: (nil)\n");
 	}
 }
