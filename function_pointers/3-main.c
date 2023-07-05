@@ -4,8 +4,9 @@
 
 /**
  * main - execute the operator given to it
- * @rgc: first paramater
+ * @argc: first paramater
  * @argv: second parameter
+ * Return: the number 0
  */
 int main(int argc, char *argv[])
 {
@@ -29,13 +30,8 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (100);
 	}
-	result = get_op_func(operator)(num1,num2);
+	result = get_op_func(operator)(num1, num2);
 	printf("%d\n", result);
 
 	return (0);
 }
-
-		
-
-
-
