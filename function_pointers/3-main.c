@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int num1, num2;
+	int num1, num2, result;
 	char *operator = argv[2];
 
 	if (argc != 4)
@@ -29,7 +29,10 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (100);
 	}
-	return (printf("%d\n", get_op_func(operator)(num1,num2)));
+	result = get_op_func(operator)(num1,num2);
+	printf("%d\n", result);
+
+	return (0);
 }
 
 		
